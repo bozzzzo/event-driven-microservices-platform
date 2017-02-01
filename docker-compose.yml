@@ -28,7 +28,7 @@ services:
     networks:
       - prodnetwork
   kafka-manager:
-    image: sheepkiller/kafka-manager
+    image: bozzo/kafka-manager-docker
     ports:
       - "29000:9000"
     environment:
